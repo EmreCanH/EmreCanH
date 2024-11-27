@@ -1,0 +1,25 @@
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011"
+    type="static" mediaPresentationDuration="PT4.999S" minBufferTime="PT1.5S">
+    <Period id="0" duration="PT4.999S">
+        <EventStream schemeIdUri="urn:lura:ms4:20230106" timescale="90000">
+            <Event id="0">
+                keyref=SXlba3Qq5fITto+IvG2N8w,ctx=vast,data=fTf/K2rDrDz7HC7bOtlLQ6+qFXfgpczViGgyyLwGapORd6Js4srQGKkcoAkOdV298977cpYlIH7eHfdPVFI5LrB69qJXNKaLxu/ns/6mVbTD42g/yqinbBmi5nOgKmsiniIzgOypjUJiaBPgzGUhbQE29LZ7qmWWqTPGn93wwxo=</Event>
+        </EventStream>
+        <AdaptationSet mimeType="video/mp4">
+            <BaseURL>https://m300732-ecdn.mp.lura.live/documentation/qa-cdn/1857/24/07/02/5199879/</BaseURL>
+            <SegmentTemplate
+                media="video-$RepresentationID$-$Number$.mp4?URLPrefix=aHR0cHM6Ly9tMzAwNzMyLWVjZG4ubXAubHVyYS5saXZlL2RvY3VtZW50YXRpb24vcWEtY2RuLzE4NTcvMjQvMDcvMDIvNTE5OTg3OS8&Expires=2147483647&KeyName=mcpkey1&Signature=hUSyHeWhccTF9Rmze7Na962DxbQ"
+                duration="60000" startNumber="1"
+                initialization="video-$RepresentationID$-init.mp4?URLPrefix=aHR0cHM6Ly9tMzAwNzMyLWVjZG4ubXAubHVyYS5saXZlL2RvY3VtZW50YXRpb24vcWEtY2RuLzE4NTcvMjQvMDcvMDIvNTE5OTg3OS8&Expires=2147483647&KeyName=mcpkey1&Signature=hUSyHeWhccTF9Rmze7Na962DxbQ"
+                timescale="10000" presentationTimeOffset="0" />
+            <Representation id="29BE6FCF9F8A78C818C8D2E3C2C5DC1A61F6529453ADE" bandwidth="105706"
+                width="204" height="360" mimeType="video/mp4" codecs="avc1.64000d" />
+            <Representation id="2774EE5373204B798A9705473ED9F35981C5C5FDEB2862A" bandwidth="146038"
+                width="240" height="428" mimeType="video/mp4" codecs="avc1.640015" />
+            <Representation id="EACF42D5341C3517B1FAA35A81377D502985514FABF7A0" bandwidth="363767"
+                width="360" height="640" mimeType="video/mp4" codecs="avc1.64001e" />
+            <Representation id="EC643FF81B4DCA4573732B51C8722A463E3C77F817AB" bandwidth="1979647"
+                width="720" height="1280" mimeType="video/mp4" codecs="avc1.64001f" />
+        </AdaptationSet>
+    </Period>
+</MPD>
