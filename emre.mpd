@@ -1,6 +1,5 @@
-<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011"
-    type="static" mediaPresentationDuration="PT15.72S" minBufferTime="PT1.5S">
-    <Period id="0" duration="PT4.999S">
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="static" mediaPresentationDuration="PT15.72S" minBufferTime="PT1.5S">
+    <Period id="0" duration="PT15.72S">
         <EventStream schemeIdUri="urn:lura:ms4:20230106" timescale="90000">
             <Event id="0">
                 keyref=SXlba3Qq5fITto+IvG2N8w,ctx=vast,data=fTf/K2rDrDz7HC7bOtlLQ6+qFXfgpczViGgyyLwGapORd6Js4srQGKkcoAkOdV298977cpYlIH7eHfdPVFI5LrB69qJXNKaLxu/ns/6mVbTD42g/yqinbBmi5nOgKmsiniIzgOypjUJiaBPgzGUhbQE29LZ7qmWWqTPGn93wwxo=</Event>
